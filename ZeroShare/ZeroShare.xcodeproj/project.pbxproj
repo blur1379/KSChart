@@ -3,11 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F77803D7FD2CD6AF58F828C /* Pods_ZeroShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C770F7DE7EBA95D21074E78E /* Pods_ZeroShare.framework */; };
+		97DFDFA5401FE5F2C7A0F4F6 /* Pods_ZeroShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04629179A3E3CB31F5D5F321 /* Pods_ZeroShare.framework */; };
+		A97C902B2B81D81B0075E66C /* KSLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C90132B81D81B0075E66C /* KSLayer.swift */; };
+		A97C902C2B81D81B0075E66C /* KSSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C90142B81D81B0075E66C /* KSSection.swift */; };
+		A97C902D2B81D81B0075E66C /* KSSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C90152B81D81B0075E66C /* KSSeries.swift */; };
+		A97C902E2B81D81B0075E66C /* KSDynamicItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C90162B81D81B0075E66C /* KSDynamicItem.swift */; };
+		A97C902F2B81D81B0075E66C /* KSKLineChartStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C90172B81D81B0075E66C /* KSKLineChartStyle.swift */; };
+		A97C90302B81D81B0075E66C /* KSLetValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C90182B81D81B0075E66C /* KSLetValue.swift */; };
+		A97C90312B81D81B0075E66C /* KSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C90192B81D81B0075E66C /* KSExtension.swift */; };
+		A97C90322B81D81B0075E66C /* KSCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C901A2B81D81B0075E66C /* KSCalculator.swift */; };
+		A97C90332B81D81B0075E66C /* KSChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C901B2B81D81B0075E66C /* KSChartModel.swift */; };
+		A97C90342B81D81B0075E66C /* KSAxisModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C901C2B81D81B0075E66C /* KSAxisModel.swift */; };
+		A97C90352B81D81B0075E66C /* KSKLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C901D2B81D81B0075E66C /* KSKLineChart.swift */; };
+		A97C90362B81D81B0075E66C /* KSSeries+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C90202B81D81B0075E66C /* KSSeries+Extensions.swift */; };
+		A97C90372B81D81B0075E66C /* KSChartModel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C90212B81D81B0075E66C /* KSChartModel+Extensions.swift */; };
+		A97C90382B81D81B0075E66C /* Double+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C90232B81D81B0075E66C /* Double+KSExtensions.swift */; };
+		A97C90392B81D81B0075E66C /* String+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C90242B81D81B0075E66C /* String+KSExtensions.swift */; };
+		A97C903A2B81D81B0075E66C /* Date+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C90252B81D81B0075E66C /* Date+KSExtensions.swift */; };
+		A97C903B2B81D81B0075E66C /* CGFloat+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C90262B81D81B0075E66C /* CGFloat+KSExtensions.swift */; };
+		A97C903C2B81D81B0075E66C /* UIColor+KSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C90272B81D81B0075E66C /* UIColor+KSExtensions.swift */; };
+		A97C903D2B81D81B0075E66C /* KSTimeChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C90292B81D81B0075E66C /* KSTimeChartModel.swift */; };
+		A97C903E2B81D81B0075E66C /* KSBollModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97C902A2B81D81B0075E66C /* KSBollModel.swift */; };
 		E61E91C22338EE7C00184885 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61E91C12338EE7C00184885 /* AppDelegate.swift */; };
 		E61E91C42338EE7C00184885 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61E91C32338EE7C00184885 /* ViewController.swift */; };
 		E61E91C72338EE7C00184885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61E91C52338EE7C00184885 /* Main.storyboard */; };
@@ -118,9 +138,29 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		078502BD5C7E716DD24FEE07 /* Pods-ZeroShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroShare.release.xcconfig"; path = "Target Support Files/Pods-ZeroShare/Pods-ZeroShare.release.xcconfig"; sourceTree = "<group>"; };
-		976229B2BDF5A2CDC61A932A /* Pods-ZeroShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroShare.debug.xcconfig"; path = "Target Support Files/Pods-ZeroShare/Pods-ZeroShare.debug.xcconfig"; sourceTree = "<group>"; };
-		C770F7DE7EBA95D21074E78E /* Pods_ZeroShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeroShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04629179A3E3CB31F5D5F321 /* Pods_ZeroShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeroShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2986B1C3F2721E97349ACFD1 /* Pods-ZeroShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroShare.debug.xcconfig"; path = "Target Support Files/Pods-ZeroShare/Pods-ZeroShare.debug.xcconfig"; sourceTree = "<group>"; };
+		A97C90132B81D81B0075E66C /* KSLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSLayer.swift; sourceTree = "<group>"; };
+		A97C90142B81D81B0075E66C /* KSSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSSection.swift; sourceTree = "<group>"; };
+		A97C90152B81D81B0075E66C /* KSSeries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSSeries.swift; sourceTree = "<group>"; };
+		A97C90162B81D81B0075E66C /* KSDynamicItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSDynamicItem.swift; sourceTree = "<group>"; };
+		A97C90172B81D81B0075E66C /* KSKLineChartStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSKLineChartStyle.swift; sourceTree = "<group>"; };
+		A97C90182B81D81B0075E66C /* KSLetValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSLetValue.swift; sourceTree = "<group>"; };
+		A97C90192B81D81B0075E66C /* KSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSExtension.swift; sourceTree = "<group>"; };
+		A97C901A2B81D81B0075E66C /* KSCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSCalculator.swift; sourceTree = "<group>"; };
+		A97C901B2B81D81B0075E66C /* KSChartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSChartModel.swift; sourceTree = "<group>"; };
+		A97C901C2B81D81B0075E66C /* KSAxisModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSAxisModel.swift; sourceTree = "<group>"; };
+		A97C901D2B81D81B0075E66C /* KSKLineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSKLineChart.swift; sourceTree = "<group>"; };
+		A97C90202B81D81B0075E66C /* KSSeries+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KSSeries+Extensions.swift"; sourceTree = "<group>"; };
+		A97C90212B81D81B0075E66C /* KSChartModel+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KSChartModel+Extensions.swift"; sourceTree = "<group>"; };
+		A97C90232B81D81B0075E66C /* Double+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+KSExtensions.swift"; sourceTree = "<group>"; };
+		A97C90242B81D81B0075E66C /* String+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+KSExtensions.swift"; sourceTree = "<group>"; };
+		A97C90252B81D81B0075E66C /* Date+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+KSExtensions.swift"; sourceTree = "<group>"; };
+		A97C90262B81D81B0075E66C /* CGFloat+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+KSExtensions.swift"; sourceTree = "<group>"; };
+		A97C90272B81D81B0075E66C /* UIColor+KSExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+KSExtensions.swift"; sourceTree = "<group>"; };
+		A97C90292B81D81B0075E66C /* KSTimeChartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTimeChartModel.swift; sourceTree = "<group>"; };
+		A97C902A2B81D81B0075E66C /* KSBollModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSBollModel.swift; sourceTree = "<group>"; };
+		E04DD9CD96BE9D488416E959 /* Pods-ZeroShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroShare.release.xcconfig"; path = "Target Support Files/Pods-ZeroShare/Pods-ZeroShare.release.xcconfig"; sourceTree = "<group>"; };
 		E61E91BE2338EE7C00184885 /* KSChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61E91C12338EE7C00184885 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E61E91C32338EE7C00184885 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -243,20 +283,96 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F77803D7FD2CD6AF58F828C /* Pods_ZeroShare.framework in Frameworks */,
+				97DFDFA5401FE5F2C7A0F4F6 /* Pods_ZeroShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DB9216E01DE6D773EDC0A9D6 /* Pods */ = {
+		722DEF69912B6B01257B8F9C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				976229B2BDF5A2CDC61A932A /* Pods-ZeroShare.debug.xcconfig */,
-				078502BD5C7E716DD24FEE07 /* Pods-ZeroShare.release.xcconfig */,
+				2986B1C3F2721E97349ACFD1 /* Pods-ZeroShare.debug.xcconfig */,
+				E04DD9CD96BE9D488416E959 /* Pods-ZeroShare.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		962563D8E52392D1067325A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04629179A3E3CB31F5D5F321 /* Pods_ZeroShare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A97C90112B81D81B0075E66C /* KSChart */ = {
+			isa = PBXGroup;
+			children = (
+				A97C90122B81D81B0075E66C /* Chart */,
+				A97C901E2B81D81B0075E66C /* Extensions */,
+				A97C90282B81D81B0075E66C /* CustomModel */,
+			);
+			name = KSChart;
+			path = ../../../../KSChart;
+			sourceTree = "<group>";
+		};
+		A97C90122B81D81B0075E66C /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				A97C90132B81D81B0075E66C /* KSLayer.swift */,
+				A97C90142B81D81B0075E66C /* KSSection.swift */,
+				A97C90152B81D81B0075E66C /* KSSeries.swift */,
+				A97C90162B81D81B0075E66C /* KSDynamicItem.swift */,
+				A97C90172B81D81B0075E66C /* KSKLineChartStyle.swift */,
+				A97C90182B81D81B0075E66C /* KSLetValue.swift */,
+				A97C90192B81D81B0075E66C /* KSExtension.swift */,
+				A97C901A2B81D81B0075E66C /* KSCalculator.swift */,
+				A97C901B2B81D81B0075E66C /* KSChartModel.swift */,
+				A97C901C2B81D81B0075E66C /* KSAxisModel.swift */,
+				A97C901D2B81D81B0075E66C /* KSKLineChart.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		A97C901E2B81D81B0075E66C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A97C901F2B81D81B0075E66C /* ChartExtensions */,
+				A97C90222B81D81B0075E66C /* ShareExtensions */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A97C901F2B81D81B0075E66C /* ChartExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				A97C90202B81D81B0075E66C /* KSSeries+Extensions.swift */,
+				A97C90212B81D81B0075E66C /* KSChartModel+Extensions.swift */,
+			);
+			path = ChartExtensions;
+			sourceTree = "<group>";
+		};
+		A97C90222B81D81B0075E66C /* ShareExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				A97C90232B81D81B0075E66C /* Double+KSExtensions.swift */,
+				A97C90242B81D81B0075E66C /* String+KSExtensions.swift */,
+				A97C90252B81D81B0075E66C /* Date+KSExtensions.swift */,
+				A97C90262B81D81B0075E66C /* CGFloat+KSExtensions.swift */,
+				A97C90272B81D81B0075E66C /* UIColor+KSExtensions.swift */,
+			);
+			path = ShareExtensions;
+			sourceTree = "<group>";
+		};
+		A97C90282B81D81B0075E66C /* CustomModel */ = {
+			isa = PBXGroup;
+			children = (
+				A97C90292B81D81B0075E66C /* KSTimeChartModel.swift */,
+				A97C902A2B81D81B0075E66C /* KSBollModel.swift */,
+			);
+			path = CustomModel;
 			sourceTree = "<group>";
 		};
 		E61E91B52338EE7C00184885 = {
@@ -264,8 +380,8 @@
 			children = (
 				E61E91C02338EE7C00184885 /* ZeroShare */,
 				E61E91BF2338EE7C00184885 /* Products */,
-				DB9216E01DE6D773EDC0A9D6 /* Pods */,
-				F5C4009A4CBCB83E2D2FD989 /* Frameworks */,
+				722DEF69912B6B01257B8F9C /* Pods */,
+				962563D8E52392D1067325A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -335,6 +451,7 @@
 			isa = PBXGroup;
 			children = (
 				E6AB6E48238BEA5900C9BCF3 /* KSChart */,
+				A97C90112B81D81B0075E66C /* KSChart */,
 				E61E91E72338F00F00184885 /* GDPerformanceMonitoring */,
 			);
 			path = Library;
@@ -860,14 +977,6 @@
 			path = ProExtensions;
 			sourceTree = "<group>";
 		};
-		F5C4009A4CBCB83E2D2FD989 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C770F7DE7EBA95D21074E78E /* Pods_ZeroShare.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -896,8 +1005,9 @@
 		E61E91B62338EE7C00184885 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1500;
 				ORGANIZATIONNAME = saeipi;
 				TargetAttributes = {
 					E61E91BD2338EE7C00184885 = {
@@ -1020,48 +1130,65 @@
 				E6AB6E67238BEA5900C9BCF3 /* KSCalculator.swift in Sources */,
 				E61E92D12338F05500184885 /* KSChartMenuCell.swift in Sources */,
 				E61E92CC2338F05500184885 /* KSChartHorizontalView.swift in Sources */,
+				A97C903E2B81D81B0075E66C /* KSBollModel.swift in Sources */,
+				A97C90362B81D81B0075E66C /* KSSeries+Extensions.swift in Sources */,
 				E61E92682338F00F00184885 /* UIView+KSExtensions.swift in Sources */,
+				A97C90352B81D81B0075E66C /* KSKLineChart.swift in Sources */,
+				A97C90322B81D81B0075E66C /* KSCalculator.swift in Sources */,
 				E61E92BD2338F05500184885 /* KSMultipleLabelView.swift in Sources */,
 				E61E92BB2338F05500184885 /* KSOrderBookCell.swift in Sources */,
 				E6AB6E78238BEA5900C9BCF3 /* KSSeries+Extensions.swift in Sources */,
 				E6AB6E6B238BEA5900C9BCF3 /* KSDynamicItem.swift in Sources */,
+				A97C90382B81D81B0075E66C /* Double+KSExtensions.swift in Sources */,
+				A97C90302B81D81B0075E66C /* KSLetValue.swift in Sources */,
 				E627AA5D24404961007A3EEA /* KSLetValue.swift in Sources */,
 				E622D1BB2339DDA700D233E0 /* KSChartStyles.swift in Sources */,
 				E61E92BF2338F05500184885 /* KSListMenuView.swift in Sources */,
+				A97C903C2B81D81B0075E66C /* UIColor+KSExtensions.swift in Sources */,
+				A97C902B2B81D81B0075E66C /* KSLayer.swift in Sources */,
 				E61E92692338F00F00184885 /* UIViewController+KSExtensions.swift in Sources */,
 				E61E92D82338F05500184885 /* KSTimePickerView.swift in Sources */,
 				E61E923A2338F00F00184885 /* LinkedFramesList.swift in Sources */,
 				E61E92612338F00F00184885 /* KSBaseViewController+Extensions.swift in Sources */,
+				A97C90312B81D81B0075E66C /* KSExtension.swift in Sources */,
+				A97C902C2B81D81B0075E66C /* KSSection.swift in Sources */,
 				E6AB6E7B238BEA5900C9BCF3 /* Double+KSExtensions.swift in Sources */,
 				E61E92C02338F05500184885 /* KSPageButton.swift in Sources */,
 				E6AB6E66238BEA5900C9BCF3 /* KSAxisModel.swift in Sources */,
 				E61E91E42338EEE800184885 /* KSWebSocketConfigure.m in Sources */,
 				E61E92C12338F05500184885 /* KSTwinsLabelView.swift in Sources */,
 				E61E92432338F00F00184885 /* KSBaseViewController.swift in Sources */,
+				A97C903B2B81D81B0075E66C /* CGFloat+KSExtensions.swift in Sources */,
 				E6AB6E6D238BEA5900C9BCF3 /* KSKLineChart.swift in Sources */,
 				E61E91E32338EEE800184885 /* KSWebSocket.m in Sources */,
 				E61E92B82338F05500184885 /* KSDashboardChildController.swift in Sources */,
+				A97C903D2B81D81B0075E66C /* KSTimeChartModel.swift in Sources */,
 				E61E92722338F00F00184885 /* KSSpeedy.swift in Sources */,
 				E61E92D22338F05500184885 /* KSChartValueView.swift in Sources */,
 				E6AB6E7A238BEA5900C9BCF3 /* Date+KSExtensions.swift in Sources */,
 				E61E92782338F01700184885 /* KSApi.swift in Sources */,
 				E61E92412338F00F00184885 /* KSBaseTableViewCell.swift in Sources */,
+				A97C902D2B81D81B0075E66C /* KSSeries.swift in Sources */,
 				E61E92C22338F05500184885 /* KSLanguageHelper.swift in Sources */,
 				E61E92D52338F05500184885 /* KSMenuBarView.swift in Sources */,
+				A97C903A2B81D81B0075E66C /* Date+KSExtensions.swift in Sources */,
 				E61E925A2338F00F00184885 /* KSChartItem+Extensions.swift in Sources */,
 				E61E92D62338F05500184885 /* KSPriceIndexView.swift in Sources */,
 				E61E92702338F00F00184885 /* KSFileMgr.swift in Sources */,
 				E61E91C42338EE7C00184885 /* ViewController.swift in Sources */,
 				E61E92CF2338F05500184885 /* KSChartFuncsView.swift in Sources */,
+				A97C902E2B81D81B0075E66C /* KSDynamicItem.swift in Sources */,
 				E61E92CE2338F05500184885 /* KSBubbleMenuView.swift in Sources */,
 				E61E92C92338F05500184885 /* KSSocketMsgMgr.swift in Sources */,
 				E61E92402338F00F00184885 /* WindowViewController.swift in Sources */,
 				E622D1BF2339F3C000D233E0 /* KSSeriesParam.swift in Sources */,
 				E61E92422338F00F00184885 /* KSBaseNavigationController.swift in Sources */,
 				E61E923F2338F00F00184885 /* Protocols.swift in Sources */,
+				A97C90392B81D81B0075E66C /* String+KSExtensions.swift in Sources */,
 				E61E92C32338F05500184885 /* ASNetManager.swift in Sources */,
 				E6AB6E6C238BEA5900C9BCF3 /* KSExtension.swift in Sources */,
 				E61E923D2338F00F00184885 /* PerformanceView.swift in Sources */,
+				A97C90372B81D81B0075E66C /* KSChartModel+Extensions.swift in Sources */,
 				E61E92CA2338F05500184885 /* KSSummaryInfo.swift in Sources */,
 				E61E92D92338F05500184885 /* KSTransactionBarView.swift in Sources */,
 				E622D1BD2339E06300D233E0 /* KSBinanceController.swift in Sources */,
@@ -1071,6 +1198,7 @@
 				E61E92CB2338F05500184885 /* KSDashboardRequest.swift in Sources */,
 				E61E92672338F00F00184885 /* UILabel+KSExtensions.swift in Sources */,
 				E61E92B92338F05500184885 /* KSMarketTradeController.swift in Sources */,
+				A97C90342B81D81B0075E66C /* KSAxisModel.swift in Sources */,
 				E61E923E2338F00F00184885 /* PerformanceСalculator.swift in Sources */,
 				E6AB6E72238BEA5900C9BCF3 /* KSBollModel.swift in Sources */,
 				E6AB6E6E238BEA5900C9BCF3 /* KSKLineChartStyle.swift in Sources */,
@@ -1084,8 +1212,10 @@
 				E61E92BA2338F05500184885 /* KSTradeDetail.swift in Sources */,
 				E61E91C22338EE7C00184885 /* AppDelegate.swift in Sources */,
 				E61E92D42338F05500184885 /* KSKChartView.swift in Sources */,
+				A97C902F2B81D81B0075E66C /* KSKLineChartStyle.swift in Sources */,
 				E6AB6E71238BEA5900C9BCF3 /* KSLayer.swift in Sources */,
 				E61E92BC2338F05500184885 /* KSOrderBookController.swift in Sources */,
+				A97C90332B81D81B0075E66C /* KSChartModel.swift in Sources */,
 				E6AB6E79238BEA5900C9BCF3 /* CGFloat+KSExtensions.swift in Sources */,
 				E61E926E2338F00F00184885 /* KSConstValue.swift in Sources */,
 			);
@@ -1151,6 +1281,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1162,6 +1293,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1176,7 +1308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1213,6 +1345,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1224,6 +1357,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1232,7 +1366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1244,18 +1378,18 @@
 		};
 		E61E91D12338EE7D00184885 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 976229B2BDF5A2CDC61A932A /* Pods-ZeroShare.debug.xcconfig */;
+			baseConfigurationReference = 2986B1C3F2721E97349ACFD1 /* Pods-ZeroShare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TW8WRSRZ44;
+				DEVELOPMENT_TEAM = B3YXFTQFW9;
 				INFOPLIST_FILE = ZeroShare/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.saeipi.ZeroShare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saeipi.ZeroShare.ddBlur;
 				PRODUCT_NAME = KSChart;
 				SWIFT_OBJC_BRIDGING_HEADER = "ZeroShare/Scripts/Objectc/ZeroShare-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -1265,18 +1399,18 @@
 		};
 		E61E91D22338EE7D00184885 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 078502BD5C7E716DD24FEE07 /* Pods-ZeroShare.release.xcconfig */;
+			baseConfigurationReference = E04DD9CD96BE9D488416E959 /* Pods-ZeroShare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TW8WRSRZ44;
+				DEVELOPMENT_TEAM = B3YXFTQFW9;
 				INFOPLIST_FILE = ZeroShare/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.saeipi.ZeroShare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saeipi.ZeroShare.ddBlur;
 				PRODUCT_NAME = KSChart;
 				SWIFT_OBJC_BRIDGING_HEADER = "ZeroShare/Scripts/Objectc/ZeroShare-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

@@ -49,6 +49,6 @@ extension Date {
         KS_Date_Formatter.dateFormat = format
         let last = KS_Date_Formatter.date(from: time)
         let timeStamp = last?.timeIntervalSince1970
-        return Int(timeStamp!)
+        return Int(timeStamp ?? 0)
     }
 }

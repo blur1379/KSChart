@@ -35,9 +35,9 @@ class KSSingleton: NSObject {
 }
 
 class KSServer: NSObject {
-    var domain: String       = ""
-    var httpServer: String = ""
-    var socketServer: String = ""
+    var domain: String          = ""
+    var httpServer: String      = ""
+    var socketServer: String    = ""
     
     convenience init(domain: String) {
         self.init()

@@ -210,7 +210,7 @@ static NSString *KS_Notification_NetworkChange       = @"KS_Notification_Network
  发送心跳消息
  */
 - (void)sendHeartbeatMessage {
-    [self.webSocket sendPing:nil];
+    [self.webSocket sendPing:nil error:nil];
     //NSLog(@"%s:%@",__FUNCTION__,[NSThread currentThread]);
     //NSMutableDictionary *message = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"heartbeatKey",@"heartbeatValue", nil];
     //[self sendMessage:message];

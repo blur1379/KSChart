@@ -297,20 +297,20 @@ class KSBinanceController: KSBaseViewController {
         segmentedPager.parallaxHeader.minimumHeight                 = 0
         
         // Segmented Control customization
-        segmentedPager.segmentedControl.selectionIndicatorLocation  = HMSegmentedControlSelectionIndicatorLocation.none
+//        segmentedPager.segmentedControl.selectionIndicatorLocation  = HMSegmentedControlSelectionIndicatorLocation.none
         segmentedPager.segmentedControl.backgroundColor             = UIColor.white
-        segmentedPager.segmentedControl.segmentWidthStyle           = HMSegmentedControlSegmentWidthStyle.fixed//默认dixed/dynamic左对齐
-        segmentedPager.segmentedControl.titleTextAttributes         = [
-            NSAttributedString.Key.foregroundColor: KS_Const_Color_Chart_Ink,
-            NSAttributedString.Key.font:KS_Const_Font_Normal_16
-        ]
-        segmentedPager.segmentedControl.selectedTitleTextAttributes = [
-            NSAttributedString.Key.foregroundColor: KS_Const_Color_Menu_Text_Selectd,
-            NSAttributedString.Key.font:KS_Const_Font_Normal_16
-        ]
-        segmentedPager.segmentedControl.selectionIndicatorLocation  = HMSegmentedControlSelectionIndicatorLocation.down
-        segmentedPager.segmentedControl.selectionIndicatorColor     = KS_Const_Color_Menu_Text_Selectd
-        segmentedPager.segmentedControl.selectionIndicatorHeight    = 2
+//        segmentedPager.segmentedControl.segmentWidthStyle           = HMSegmentedControlSegmentWidthStyle.fixed//默认dixed/dynamic左对齐
+//        segmentedPager.segmentedControl.titleTextAttributes         = [
+//            NSAttributedString.Key.foregroundColor: KS_Const_Color_Chart_Ink,
+//            NSAttributedString.Key.font:KS_Const_Font_Normal_16
+//        ]
+//        segmentedPager.segmentedControl.selectedTitleTextAttributes = [
+//            NSAttributedString.Key.foregroundColor: KS_Const_Color_Menu_Text_Selectd,
+//            NSAttributedString.Key.font:KS_Const_Font_Normal_16
+//        ]
+//        segmentedPager.segmentedControl.selectionIndicatorLocation  = HMSegmentedControlSelectionIndicatorLocation.down
+//        segmentedPager.segmentedControl.selectionIndicatorColor     = KS_Const_Color_Menu_Text_Selectd
+//        segmentedPager.segmentedControl.selectionIndicatorHeight    = 2
         segmentedPager.segmentedControlEdgeInsets                   = UIEdgeInsets(top: 0, left: 0, bottom: KS_Const_Point02, right: 0)
         
         return segmentedPager

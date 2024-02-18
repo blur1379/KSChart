@@ -1,16 +1,23 @@
-source 'https://github.com/CocoaPods/Specs.git'
+# Uncomment the next line to define a global platform for your project
+platform :ios, '14.0'
 
-platform :ios, '10.0'
 
 use_frameworks!
 
 target 'ZeroShare' do
-	pod 'HandyJSON', '~> 5.0.0'
-	pod 'SnapKit', '~> 5.0.0'
-	pod 'Alamofire', '~> 5.0.0-beta.5'
-	pod 'SwiftyJSON', '~> 5.0.0'
+	pod 'HandyJSON'
+	pod 'SnapKit'
+	pod 'Alamofire'
+	pod 'SwiftyJSON'
+	pod 'MXSegmentedPager'
+	pod 'SocketRocket'
+end
 
-  pod 'MXSegmentedPager', '~> 3.3.0'
-  pod 'SocketRocket', '~> 0.5.1'
-  
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '14.0'
+    end
+  end
 end
